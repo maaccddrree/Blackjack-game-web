@@ -5,6 +5,7 @@ body {
   font-weight: 50px bold;
   color: white;
   text-align: center;
+  margin-top: 100px;
 }
 
 h1 {
@@ -12,21 +13,36 @@ h1 {
   text-shadow: 15px 17px #6f2401;
 }
 
+p {
+  font-size: 40px;
+  text-shadow: 5px 5px rgb(46, 48, 48);
+  color: rgb(234, 21, 21);
+}
+
+#sum-el {
+  color: aquamarine;
+  text-shadow: none;
+}
+
 #message-el {
   font-style: italic;
 }
 
+h1 {
+  font-size: 50px;
+}
 /* 3. Make sure that the two buttons have some space between
 each other when they are rendered out vertically */
 button {
   color: #016f32;
   width: 150px;
   background: goldenrod;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   font-weight: bold;
   border: none;
-  border-radius: 2px;
-  margin-bottom: 2px;
+
+  border-radius: 6px;
+  margin-bottom: 6px;
   margin-top: 2px;
 }
