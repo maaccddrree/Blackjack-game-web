@@ -1,6 +1,6 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-  background-image: url("img/px4.jpg");
+  background-image: url("img/px1.jpg");
   background-size: cover;
   font-weight: 50px bold;
   color: white;
@@ -15,10 +15,12 @@ h1 {
 
 p {
   font-size: 40px;
-  text-shadow: 5px 5px rgb(46, 48, 48);
+  /* text-shadow: 5px 5px rgb(46, 48, 48);  */
   color: rgb(234, 21, 21);
 }
-
+#player-el {
+  color: #86f1b6;
+}
 #sum-el {
   color: aquamarine;
   text-shadow: none;
