@@ -15,8 +15,8 @@ let cardsEl = document.getElementById("cards-el")
 
 
 let player = {
-  name: "Ahmad",
-  chips: 300
+  name: "Player",
+  chips: 1200
 }
 
 let playerEl = document.getElementById("player-el")
@@ -67,7 +67,7 @@ function renderGame() {
     
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
-        message = "Do you want to draw a new card?"
+        message = "Do you want to draw a new card ?"
     } else if (sum === 21) {
         message = "You've got Blackjack!"
         hasBlackJack = true

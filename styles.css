@@ -1,6 +1,6 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-  background-image: url("img/px1.jpg");
+  background-image: url("https://media.giphy.com/media/dt3ZFkDY8fDOebsq1d/giphy.gif");
   background-size: cover;
   font-weight: 50px bold;
   color: white;
@@ -36,9 +36,9 @@ h1 {
 /* 3. Make sure that the two buttons have some space between
 each other when they are rendered out vertically */
 button {
-  color: #016f32;
+  color: #0eb95b;
   width: 150px;
-  background: goldenrod;
+  background: rgb(47, 19, 3);
   padding-top: 9px;
   padding-bottom: 9px;
   font-weight: bold;
